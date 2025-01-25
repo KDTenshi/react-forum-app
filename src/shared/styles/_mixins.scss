@@ -1,1 +1,12 @@
 @use "./colors" as c;
+
+@mixin Text_White($fontSize: 24px, $fontWeight: 400) {
+  color: c.$white;
+  font-size: $fontSize;
+  font-weight: $fontWeight;
+
+  &::selection {
+    background: c.$white;
+    color: c.$black;
+  }
+}

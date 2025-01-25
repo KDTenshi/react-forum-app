@@ -1,0 +1,9 @@
+@use "../../shared/styles/colors" as c;
+@import "../../shared/styles/mixins";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", serif;
+}

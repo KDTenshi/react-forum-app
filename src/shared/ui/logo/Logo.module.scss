@@ -1,0 +1,6 @@
+@use "../../styles/colors" as c;
+@import "../../styles/mixins";
+
+.Logo {
+  @include Text_White(36px, 700);
+}

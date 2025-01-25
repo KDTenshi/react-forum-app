@@ -1,0 +1,8 @@
+@use "../../../shared/styles/colors" as c;
+@import "../../../shared/styles/mixins";
+
+.Header {
+  background: c.$black;
+  padding: 25px 75px;
+  border-bottom: 1px solid c.$gray;
+}

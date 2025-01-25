@@ -3,4 +3,10 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Ubuntu", serif;
+}
+
+.App {
+  width: 100%;
+  min-height: 100vh;
+  background: #1a1a1d;
 }/*# sourceMappingURL=App.css.map */
